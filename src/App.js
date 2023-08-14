@@ -19,7 +19,7 @@ function App() {
     <div className="app-container">
       {data ? (
         <div className="user-info">
-          <h1>User Information</h1>
+          <h1>User Informatin</h1>
           <img src={data.avatar} alt="User Avatar" className="avatar" />
           <p>
             <strong>Name:</strong> {data.first_name} {data.last_name}
